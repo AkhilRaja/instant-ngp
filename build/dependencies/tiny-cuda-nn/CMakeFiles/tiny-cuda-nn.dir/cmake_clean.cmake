@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o.d"
   "CMakeFiles/tiny-cuda-nn.dir/src/encoding.cu.o"
   "CMakeFiles/tiny-cuda-nn.dir/src/encoding.cu.o.d"
+  "CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o"
+  "CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o.d"
   "CMakeFiles/tiny-cuda-nn.dir/src/loss.cu.o"
   "CMakeFiles/tiny-cuda-nn.dir/src/loss.cu.o.d"
   "CMakeFiles/tiny-cuda-nn.dir/src/network.cu.o"

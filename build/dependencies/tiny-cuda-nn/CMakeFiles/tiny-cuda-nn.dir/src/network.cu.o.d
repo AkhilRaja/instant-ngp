@@ -353,4 +353,5 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/network.cu.o : /notebo
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/pcg32/pcg32.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/network.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/object.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/networks/cutlass_mlp.h
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/networks/cutlass_mlp.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/networks/fully_fused_mlp.h

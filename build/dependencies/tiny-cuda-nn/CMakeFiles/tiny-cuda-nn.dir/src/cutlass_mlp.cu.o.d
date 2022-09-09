@@ -392,6 +392,23 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o : /no
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/matrix_shape.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/kernel/default_gemm.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma.h \
+    /usr/local/cuda/bin/../targets/x86_64-linux/include/mma.h \
+    /usr/local/cuda/bin/../targets/x86_64-linux/include/crt/mma.h \
+    /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_bf16.h \
+    /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_bf16.hpp \
+    /usr/local/cuda/bin/../targets/x86_64-linux/include/crt/mma.hpp \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm50.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm60.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm61.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm70.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm75.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/wmma_array.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm80.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sparse_sm80.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm70.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm72.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm75.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/epilogue.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/layout/tensor.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/layout/pitch_linear.h \
@@ -426,14 +443,6 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o : /no
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/transform/threadblock/regular_tile_access_iterator.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/default_mma_tensor_op.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm75.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm50.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm60.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm61.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm70.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sm80.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/mma_sparse_sm80.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_policy.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_tile_iterator.h \
@@ -480,6 +489,9 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o : /no
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/threadblock/default_mma_core_simt.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/transform/threadblock/regular_tile_iterator_pitch_linear.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/transform/threadblock/regular_tile_iterator_pitch_linear_2dthreadtile.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/threadblock/default_mma_core_wmma.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_wmma.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_tile_iterator_wmma.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_epilogue_tensor_op.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/thread/linear_combination_clamp.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/thread/linear_combination_relu.h \
@@ -515,6 +527,11 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o : /no
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/simt_policy.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/tile_iterator_simt.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_thread_map_simt.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_epilogue_wmma_tensor_op.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/fragment_iterator_wmma_tensor_op.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/wmma_tensor_op_policy.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/tile_iterator_wmma_tensor_op.h \
+    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_thread_map_wmma_tensor_op.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/device/default_gemm_configuration.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/device/gemm_splitk_parallel.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/kernel/default_gemm_splitk_parallel.h \
@@ -523,20 +540,4 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/cutlass_mlp.cu.o : /no
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/reduction/thread/reduction_operators.h \
     /notebooks/instant-ngp/dependencies/tiny-cuda-nn/include/tiny-cuda-nn/multi_stream.h \
     /usr/include/c++/9/stack \
-    /usr/include/c++/9/bits/stl_stack.h \
-    /usr/local/cuda/bin/../targets/x86_64-linux/include/mma.h \
-    /usr/local/cuda/bin/../targets/x86_64-linux/include/crt/mma.h \
-    /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_bf16.h \
-    /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_bf16.hpp \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/wmma_array.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm70.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm72.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/arch/wmma_sm75.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/threadblock/default_mma_core_wmma.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_wmma.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/gemm/warp/mma_tensor_op_tile_iterator_wmma.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_epilogue_wmma_tensor_op.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/fragment_iterator_wmma_tensor_op.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/wmma_tensor_op_policy.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/warp/tile_iterator_wmma_tensor_op.h \
-    /notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include/cutlass/epilogue/threadblock/default_thread_map_wmma_tensor_op.h
+    /usr/include/c++/9/bits/stl_stack.h

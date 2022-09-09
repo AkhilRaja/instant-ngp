@@ -168,10 +168,10 @@ dependencies/tiny-cuda-nn/dependencies/fmt/clean: dependencies/tiny-cuda-nn/depe
 # Target rules for target CMakeFiles/testbed.dir
 
 # All Build rule for target.
-CMakeFiles/testbed.dir/all: CMakeFiles/ngp.dir/all
 CMakeFiles/testbed.dir/all: dependencies/glfw/src/CMakeFiles/glfw_objects.dir/all
 CMakeFiles/testbed.dir/all: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/all
 CMakeFiles/testbed.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFiles/fmt.dir/all
+CMakeFiles/testbed.dir/all: CMakeFiles/ngp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbed.dir/build.make CMakeFiles/testbed.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testbed.dir/build.make CMakeFiles/testbed.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=47,48 "Built target testbed"
@@ -179,7 +179,7 @@ CMakeFiles/testbed.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFile
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testbed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testbed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 0
 .PHONY : CMakeFiles/testbed.dir/rule
@@ -197,10 +197,10 @@ CMakeFiles/testbed.dir/clean:
 # Target rules for target CMakeFiles/pyngp.dir
 
 # All Build rule for target.
-CMakeFiles/pyngp.dir/all: CMakeFiles/ngp.dir/all
 CMakeFiles/pyngp.dir/all: dependencies/glfw/src/CMakeFiles/glfw_objects.dir/all
 CMakeFiles/pyngp.dir/all: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/all
 CMakeFiles/pyngp.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFiles/fmt.dir/all
+CMakeFiles/pyngp.dir/all: CMakeFiles/ngp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyngp.dir/build.make CMakeFiles/pyngp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pyngp.dir/build.make CMakeFiles/pyngp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=45,46 "Built target pyngp"
@@ -208,7 +208,7 @@ CMakeFiles/pyngp.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pyngp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pyngp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 0
 .PHONY : CMakeFiles/pyngp.dir/rule
@@ -236,7 +236,7 @@ CMakeFiles/ngp.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFiles/fm
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ngp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ngp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 0
 .PHONY : CMakeFiles/ngp.dir/rule
@@ -257,12 +257,12 @@ CMakeFiles/ngp.dir/clean:
 dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/all: dependencies/tiny-cuda-nn/dependencies/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59 "Built target tiny-cuda-nn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58,59,60 "Built target tiny-cuda-nn"
 .PHONY : dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/all
 
 # Build rule for subdir invocation for target.
 dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/instant-ngp/build/CMakeFiles 0
 .PHONY : dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/rule

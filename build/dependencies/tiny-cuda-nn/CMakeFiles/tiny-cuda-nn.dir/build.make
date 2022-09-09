@@ -209,6 +209,20 @@ dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/reduce_sum.cu.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/tiny-cuda-nn.dir/src/reduce_sum.cu.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
+dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/flags.make
+dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o: ../dependencies/tiny-cuda-nn/src/fully_fused_mlp.cu
+dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CUDA object dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o"
+	cd /notebooks/instant-ngp/build/dependencies/tiny-cuda-nn && /usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o -MF CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o.d -x cu -c /notebooks/instant-ngp/dependencies/tiny-cuda-nn/src/fully_fused_mlp.cu -o CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o
+
+dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
+
+dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
+
 # Object files for target tiny-cuda-nn
 tiny__cuda__nn_OBJECTS = \
 "CMakeFiles/tiny-cuda-nn.dir/src/common.cu.o" \
@@ -220,7 +234,8 @@ tiny__cuda__nn_OBJECTS = \
 "CMakeFiles/tiny-cuda-nn.dir/src/network.cu.o" \
 "CMakeFiles/tiny-cuda-nn.dir/src/object.cu.o" \
 "CMakeFiles/tiny-cuda-nn.dir/src/optimizer.cu.o" \
-"CMakeFiles/tiny-cuda-nn.dir/src/reduce_sum.cu.o"
+"CMakeFiles/tiny-cuda-nn.dir/src/reduce_sum.cu.o" \
+"CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o"
 
 # External object files for target tiny-cuda-nn
 tiny__cuda__nn_EXTERNAL_OBJECTS =
@@ -235,9 +250,10 @@ dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFile
 dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/object.cu.o
 dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/optimizer.cu.o
 dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/reduce_sum.cu.o
+dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o
 dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make
 dependencies/tiny-cuda-nn/libtiny-cuda-nn.a: dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libtiny-cuda-nn.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/notebooks/instant-ngp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libtiny-cuda-nn.a"
 	cd /notebooks/instant-ngp/build/dependencies/tiny-cuda-nn && $(CMAKE_COMMAND) -P CMakeFiles/tiny-cuda-nn.dir/cmake_clean_target.cmake
 	cd /notebooks/instant-ngp/build/dependencies/tiny-cuda-nn && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tiny-cuda-nn.dir/link.txt --verbose=$(VERBOSE)
 

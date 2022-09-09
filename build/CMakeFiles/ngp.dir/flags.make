@@ -3,13 +3,13 @@
 
 # compile CUDA with /usr/local/cuda/bin/nvcc
 # compile CXX with /usr/bin/c++
-CUDA_DEFINES = -DGLFW_INCLUDE_VULKAN -DNGP_GUI -DNGP_VERSION=\"1.0dev\" -DNGP_VULKAN -DTCNN_MIN_GPU_ARCH=61 -DTCNN_SHAMPOO
+CUDA_DEFINES = -DGLFW_INCLUDE_VULKAN -DNGP_GUI -DNGP_VERSION=\"1.0dev\" -DNGP_VULKAN -DTCNN_MIN_GPU_ARCH=86 -DTCNN_SHAMPOO
 
 CUDA_INCLUDES = -I/notebooks/instant-ngp/dependencies/dlss/include -I/notebooks/instant-ngp/dependencies/glfw/include -I/notebooks/instant-ngp/dependencies/imgui -I/notebooks/instant-ngp/dependencies -I/notebooks/instant-ngp/dependencies/eigen -I/notebooks/instant-ngp/dependencies/filesystem -I/notebooks/instant-ngp/dependencies/nanovdb -I/notebooks/instant-ngp/dependencies/tinylogger -I/notebooks/instant-ngp/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/tools/util/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/fmt/include
 
-CUDA_FLAGS = -O3 -DNDEBUG --generate-code=arch=compute_61,code=[compute_61,sm_61] -Xcompiler=-mf16c -Xcompiler=-Wno-float-conversion -Xcompiler=-fno-strict-aliasing -Xcompiler=-fPIC --extended-lambda --expt-relaxed-constexpr -Xcudafe=--diag_suppress=unrecognized_gcc_pragma -std=c++14
+CUDA_FLAGS = -O3 -DNDEBUG --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-mf16c -Xcompiler=-Wno-float-conversion -Xcompiler=-fno-strict-aliasing -Xcompiler=-fPIC --extended-lambda --expt-relaxed-constexpr -Xcudafe=--diag_suppress=unrecognized_gcc_pragma -std=c++14
 
-CXX_DEFINES = -DGLFW_INCLUDE_VULKAN -DNGP_GUI -DNGP_VERSION=\"1.0dev\" -DNGP_VULKAN -DTCNN_MIN_GPU_ARCH=61 -DTCNN_SHAMPOO
+CXX_DEFINES = -DGLFW_INCLUDE_VULKAN -DNGP_GUI -DNGP_VERSION=\"1.0dev\" -DNGP_VULKAN -DTCNN_MIN_GPU_ARCH=86 -DTCNN_SHAMPOO
 
 CXX_INCLUDES = -I/notebooks/instant-ngp/dependencies/dlss/include -I/notebooks/instant-ngp/dependencies/glfw/include -I/notebooks/instant-ngp/dependencies/imgui -I/notebooks/instant-ngp/dependencies -I/notebooks/instant-ngp/dependencies/eigen -I/notebooks/instant-ngp/dependencies/filesystem -I/notebooks/instant-ngp/dependencies/nanovdb -I/notebooks/instant-ngp/dependencies/tinylogger -I/notebooks/instant-ngp/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/cutlass/tools/util/include -I/notebooks/instant-ngp/dependencies/tiny-cuda-nn/dependencies/fmt/include
 

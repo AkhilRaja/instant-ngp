@@ -250,6 +250,30 @@ src/encoding.cu.s:
 	cd /notebooks/instant-ngp/build && $(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/encoding.cu.s
 .PHONY : src/encoding.cu.s
 
+src/fully_fused_mlp.o: src/fully_fused_mlp.cu.o
+.PHONY : src/fully_fused_mlp.o
+
+# target to build an object file
+src/fully_fused_mlp.cu.o:
+	cd /notebooks/instant-ngp/build && $(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.o
+.PHONY : src/fully_fused_mlp.cu.o
+
+src/fully_fused_mlp.i: src/fully_fused_mlp.cu.i
+.PHONY : src/fully_fused_mlp.i
+
+# target to preprocess a source file
+src/fully_fused_mlp.cu.i:
+	cd /notebooks/instant-ngp/build && $(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.i
+.PHONY : src/fully_fused_mlp.cu.i
+
+src/fully_fused_mlp.s: src/fully_fused_mlp.cu.s
+.PHONY : src/fully_fused_mlp.s
+
+# target to generate assembly for a file
+src/fully_fused_mlp.cu.s:
+	cd /notebooks/instant-ngp/build && $(MAKE) $(MAKESILENT) -f dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/build.make dependencies/tiny-cuda-nn/CMakeFiles/tiny-cuda-nn.dir/src/fully_fused_mlp.cu.s
+.PHONY : src/fully_fused_mlp.cu.s
+
 src/loss.o: src/loss.cu.o
 .PHONY : src/loss.o
 
@@ -394,6 +418,9 @@ help:
 	@echo "... src/encoding.o"
 	@echo "... src/encoding.i"
 	@echo "... src/encoding.s"
+	@echo "... src/fully_fused_mlp.o"
+	@echo "... src/fully_fused_mlp.i"
+	@echo "... src/fully_fused_mlp.s"
 	@echo "... src/loss.o"
 	@echo "... src/loss.i"
 	@echo "... src/loss.s"
